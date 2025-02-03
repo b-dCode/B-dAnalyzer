@@ -8,6 +8,8 @@ add_executable(BadAnalyzer main.cpp
         scanning/Scanner.h
         parsing/Parser.cpp
         parsing/Parser.h
-        scanning/Tokens.h
+        scanning/token_types.h
         parsing/AST.cpp
-        parsing/AST.h)
+        parsing/AST.h
+        scanning/Token.cpp
+        scanning/Token.h)
